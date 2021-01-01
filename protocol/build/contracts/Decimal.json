@@ -13219,7 +13219,7 @@
   },
   "networks": {},
   "schemaVersion": "3.3.3",
-  "updatedAt": "2021-01-01T13:40:49.097Z",
+  "updatedAt": "2021-01-01T20:11:00.351Z",
   "devdoc": {
     "author": "dYdX * Library that defines a fixed-point number with 18 decimal places.",
     "methods": {},
