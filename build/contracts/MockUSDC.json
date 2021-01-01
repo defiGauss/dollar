@@ -38,15 +38,15 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.17+commit.d19bba13\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[{\"internalType\":\"address\",\"name\":\"_account\",\"type\":\"address\"}],\"name\":\"isBlacklisted\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"bool\",\"name\":\"blacklisted\",\"type\":\"bool\"}],\"name\":\"setIsBlacklisted\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/sachin/code/dollar/protocol/contracts/mock/MockUSDC.sol\":\"MockUSDC\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/sachin/code/dollar/protocol/contracts/mock/MockUSDC.sol\":{\"keccak256\":\"0x2d714e273924af1a5300e0aaf61161fb55283be7cc5b46548eced818030a8225\",\"urls\":[\"bzz-raw://b25c2d63114e2761fc223685aa15428ed9fc2c37606186346fc7bb4402102c4a\",\"dweb:/ipfs/QmduWWvneMyFrLYCd6kgfhY8YVNmSWKQ7kTS91ANXN5vqv\"]},\"/Users/sachin/code/dollar/protocol/contracts/oracle/IUSDC.sol\":{\"keccak256\":\"0x3c351db9c25ff00c0dc7eca786ce1d504c994530da1cf11db285410cf34ead83\",\"urls\":[\"bzz-raw://a75c699dd0370645bee5173e3aa57946d3ad9d4ff0d53e00eabaa16a3b778d60\",\"dweb:/ipfs/Qmb4htSvY2demty2tXVFjbK5qeejrWccr4Y1cqF1Do6sEu\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561001057600080fd5b50610192806100206000396000f3fe608060405234801561001057600080fd5b50600436106100365760003560e01c80638387d0bf1461003b578063fe575a8714610050575b600080fd5b61004e6100493660046100d8565b610079565b005b61006361005e3660046100b2565b61008c565b6040516100709190610105565b60405180910390f35b6000805460ff1916911515919091179055565b5060005460ff1690565b80356100a18161012f565b92915050565b80356100a181610146565b6000602082840312156100c457600080fd5b60006100d08484610096565b949350505050565b6000602082840312156100ea57600080fd5b60006100d084846100a7565b6100ff8161011e565b82525050565b602081016100a182846100f6565b60006100a182610123565b151590565b6001600160a01b031690565b61013881610113565b811461014357600080fd5b50565b6101388161011e56fea365627a7a72315820e7c1b8ca48142a6fc14ed65969c60ccb20b82d8915ff9c4c7494e875cc4fe9746c6578706572696d656e74616cf564736f6c63430005110040",
-  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100365760003560e01c80638387d0bf1461003b578063fe575a8714610050575b600080fd5b61004e6100493660046100d8565b610079565b005b61006361005e3660046100b2565b61008c565b6040516100709190610105565b60405180910390f35b6000805460ff1916911515919091179055565b5060005460ff1690565b80356100a18161012f565b92915050565b80356100a181610146565b6000602082840312156100c457600080fd5b60006100d08484610096565b949350505050565b6000602082840312156100ea57600080fd5b60006100d084846100a7565b6100ff8161011e565b82525050565b602081016100a182846100f6565b60006100a182610123565b151590565b6001600160a01b031690565b61013881610113565b811461014357600080fd5b50565b6101388161011e56fea365627a7a72315820e7c1b8ca48142a6fc14ed65969c60ccb20b82d8915ff9c4c7494e875cc4fe9746c6578706572696d656e74616cf564736f6c63430005110040",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.17+commit.d19bba13\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[{\"internalType\":\"address\",\"name\":\"_account\",\"type\":\"address\"}],\"name\":\"isBlacklisted\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"bool\",\"name\":\"blacklisted\",\"type\":\"bool\"}],\"name\":\"setIsBlacklisted\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/sachin/code/dollar/contracts/mock/MockUSDC.sol\":\"MockUSDC\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/sachin/code/dollar/contracts/mock/MockUSDC.sol\":{\"keccak256\":\"0x2d714e273924af1a5300e0aaf61161fb55283be7cc5b46548eced818030a8225\",\"urls\":[\"bzz-raw://b25c2d63114e2761fc223685aa15428ed9fc2c37606186346fc7bb4402102c4a\",\"dweb:/ipfs/QmduWWvneMyFrLYCd6kgfhY8YVNmSWKQ7kTS91ANXN5vqv\"]},\"/Users/sachin/code/dollar/contracts/oracle/IUSDC.sol\":{\"keccak256\":\"0x3c351db9c25ff00c0dc7eca786ce1d504c994530da1cf11db285410cf34ead83\",\"urls\":[\"bzz-raw://a75c699dd0370645bee5173e3aa57946d3ad9d4ff0d53e00eabaa16a3b778d60\",\"dweb:/ipfs/Qmb4htSvY2demty2tXVFjbK5qeejrWccr4Y1cqF1Do6sEu\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b50610192806100206000396000f3fe608060405234801561001057600080fd5b50600436106100365760003560e01c80638387d0bf1461003b578063fe575a8714610050575b600080fd5b61004e6100493660046100d8565b610079565b005b61006361005e3660046100b2565b61008c565b6040516100709190610105565b60405180910390f35b6000805460ff1916911515919091179055565b5060005460ff1690565b80356100a18161012f565b92915050565b80356100a181610146565b6000602082840312156100c457600080fd5b60006100d08484610096565b949350505050565b6000602082840312156100ea57600080fd5b60006100d084846100a7565b6100ff8161011e565b82525050565b602081016100a182846100f6565b60006100a182610123565b151590565b6001600160a01b031690565b61013881610113565b811461014357600080fd5b50565b6101388161011e56fea365627a7a72315820d45a5b3ba559579b1f4d90fe715f918335302a691694713d0963a1ebffc7a8f26c6578706572696d656e74616cf564736f6c63430005110040",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100365760003560e01c80638387d0bf1461003b578063fe575a8714610050575b600080fd5b61004e6100493660046100d8565b610079565b005b61006361005e3660046100b2565b61008c565b6040516100709190610105565b60405180910390f35b6000805460ff1916911515919091179055565b5060005460ff1690565b80356100a18161012f565b92915050565b80356100a181610146565b6000602082840312156100c457600080fd5b60006100d08484610096565b949350505050565b6000602082840312156100ea57600080fd5b60006100d084846100a7565b6100ff8161011e565b82525050565b602081016100a182846100f6565b60006100a182610123565b151590565b6001600160a01b031690565b61013881610113565b811461014357600080fd5b50565b6101388161011e56fea365627a7a72315820d45a5b3ba559579b1f4d90fe715f918335302a691694713d0963a1ebffc7a8f26c6578706572696d656e74616cf564736f6c63430005110040",
   "sourceMap": "721:275:35:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;721:275:35;;;;;;;",
   "deployedSourceMap": "721:275:35:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;721:275:35;;;;;;;;;;;;;;;;;;;;;;;;898:96;;;;;;;;;:::i;:::-;;786:106;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;898:96;961:12;:26;;-1:-1:-1;;961:26:35;;;;;;;;;;898:96::o;786:106::-;-1:-1:-1;850:4:35;873:12;;;;786:106::o;5:130:-1:-;72:20;;97:33;72:20;97:33;;;57:78;;;;;142:124;206:20;;231:30;206:20;231:30;;273:241;;377:2;365:9;356:7;352:23;348:32;345:2;;;393:1;390;383:12;345:2;428:1;445:53;490:7;470:9;445:53;;;435:63;339:175;-1:-1;;;;339:175;521:235;;622:2;610:9;601:7;597:23;593:32;590:2;;;638:1;635;628:12;590:2;673:1;690:50;732:7;712:9;690:50;;763:104;840:21;855:5;840:21;;;835:3;828:34;822:45;;;874:201;986:2;971:18;;1000:65;975:9;1038:6;1000:65;;1082:91;;1144:24;1162:5;1144:24;;1180:85;1246:13;1239:21;;1222:43;1272:121;-1:-1;;;;;1334:54;;1317:76;1400:117;1469:24;1487:5;1469:24;;;1462:5;1459:35;1449:2;;1508:1;1505;1498:12;1449:2;1443:74;;1524:111;1590:21;1605:5;1590:21;",
   "source": "/*\n    Copyright 2020 Empty Set Squad <emptysetsquad@protonmail.com>\n\n    Licensed under the Apache License, Version 2.0 (the \"License\");\n    you may not use this file except in compliance with the License.\n    You may obtain a copy of the License at\n\n    http://www.apache.org/licenses/LICENSE-2.0\n\n    Unless required by applicable law or agreed to in writing, software\n    distributed under the License is distributed on an \"AS IS\" BASIS,\n    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n    See the License for the specific language governing permissions and\n    limitations under the License.\n*/\n\npragma solidity ^0.5.17;\npragma experimental ABIEncoderV2;\n\nimport \"../oracle/IUSDC.sol\";\n\ncontract MockUSDC is IUSDC {\n    bool private _blacklisted;\n\n    function isBlacklisted(address _account) external view returns (bool) {\n        return _blacklisted;\n    }\n\n    function setIsBlacklisted(bool blacklisted) external {\n        _blacklisted = blacklisted;\n    }\n}\n",
-  "sourcePath": "/Users/sachin/code/dollar/protocol/contracts/mock/MockUSDC.sol",
+  "sourcePath": "/Users/sachin/code/dollar/contracts/mock/MockUSDC.sol",
   "ast": {
-    "absolutePath": "/Users/sachin/code/dollar/protocol/contracts/mock/MockUSDC.sol",
+    "absolutePath": "/Users/sachin/code/dollar/contracts/mock/MockUSDC.sol",
     "exportedSymbols": {
       "MockUSDC": [
         7445
@@ -76,7 +76,7 @@
         "src": "655:33:35"
       },
       {
-        "absolutePath": "/Users/sachin/code/dollar/protocol/contracts/oracle/IUSDC.sol",
+        "absolutePath": "/Users/sachin/code/dollar/contracts/oracle/IUSDC.sol",
         "file": "../oracle/IUSDC.sol",
         "id": 7420,
         "nodeType": "ImportDirective",
@@ -369,7 +369,7 @@
   },
   "legacyAST": {
     "attributes": {
-      "absolutePath": "/Users/sachin/code/dollar/protocol/contracts/mock/MockUSDC.sol",
+      "absolutePath": "/Users/sachin/code/dollar/contracts/mock/MockUSDC.sol",
       "exportedSymbols": {
         "MockUSDC": [
           7445
@@ -404,7 +404,7 @@
       {
         "attributes": {
           "SourceUnit": 8655,
-          "absolutePath": "/Users/sachin/code/dollar/protocol/contracts/oracle/IUSDC.sol",
+          "absolutePath": "/Users/sachin/code/dollar/contracts/oracle/IUSDC.sol",
           "file": "../oracle/IUSDC.sol",
           "scope": 7446,
           "symbolAliases": [
@@ -737,7 +737,7 @@
   },
   "networks": {},
   "schemaVersion": "3.3.3",
-  "updatedAt": "2021-01-01T20:11:00.394Z",
+  "updatedAt": "2021-01-01T20:54:00.186Z",
   "devdoc": {
     "methods": {}
   },

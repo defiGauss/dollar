@@ -32,15 +32,15 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.17+commit.d19bba13\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"epoch\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"epoch\",\"type\":\"uint256\"}],\"name\":\"set\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/sachin/code/dollar/protocol/contracts/mock/MockSettableDAO.sol\":\"MockSettableDAO\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/sachin/code/dollar/protocol/contracts/mock/MockSettableDAO.sol\":{\"keccak256\":\"0x6ea674ba3ee1737b56f6808aa042aee8e8af06c892a1213380fc8290fb1b257a\",\"urls\":[\"bzz-raw://48adba6db781c0a81f0680c88f0ea4a3a5a7340b519292a319d19c4a2e38903a\",\"dweb:/ipfs/QmSRsNHfrRgGxquon5a4BR3q2NcoXUaJK72g13m2B77cQS\"]},\"/Users/sachin/code/dollar/protocol/contracts/oracle/IDAO.sol\":{\"keccak256\":\"0x8828ea89315241fe1028f0c41efc8adfa63c15d79fca40cfb1546841e40b482a\",\"urls\":[\"bzz-raw://e7751d5c6a8775e1863ca5373bc51037a33583bada738b5c5d003e346032d1f6\",\"dweb:/ipfs/QmTJMTZze8XkDUnz1vDL7h12QeoFt8fABxD6eJRdwZsx7K\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561001057600080fd5b50610112806100206000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c806360fe47b1146037578063900cf0cf146048575b600080fd5b60466042366004607c565b6062565b005b604e6067565b6040516059919060ac565b60405180910390f35b600055565b60005490565b803560768160bb565b92915050565b600060208284031215608d57600080fd5b600060978484606d565b949350505050565b60a68160b8565b82525050565b6020810160768284609f565b90565b60c28160b8565b811460cc57600080fd5b5056fea365627a7a72315820352ed599b99f675812306b61afe17a1e63fae8e16ff13ebd7cd1edafa74d9cda6c6578706572696d656e74616cf564736f6c63430005110040",
-  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060325760003560e01c806360fe47b1146037578063900cf0cf146048575b600080fd5b60466042366004607c565b6062565b005b604e6067565b6040516059919060ac565b60405180910390f35b600055565b60005490565b803560768160bb565b92915050565b600060208284031215608d57600080fd5b600060978484606d565b949350505050565b60a68160b8565b82525050565b6020810160768284609f565b90565b60c28160b8565b811460cc57600080fd5b5056fea365627a7a72315820352ed599b99f675812306b61afe17a1e63fae8e16ff13ebd7cd1edafa74d9cda6c6578706572696d656e74616cf564736f6c63430005110040",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.17+commit.d19bba13\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"epoch\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"epoch\",\"type\":\"uint256\"}],\"name\":\"set\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/sachin/code/dollar/contracts/mock/MockSettableDAO.sol\":\"MockSettableDAO\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/sachin/code/dollar/contracts/mock/MockSettableDAO.sol\":{\"keccak256\":\"0x6ea674ba3ee1737b56f6808aa042aee8e8af06c892a1213380fc8290fb1b257a\",\"urls\":[\"bzz-raw://48adba6db781c0a81f0680c88f0ea4a3a5a7340b519292a319d19c4a2e38903a\",\"dweb:/ipfs/QmSRsNHfrRgGxquon5a4BR3q2NcoXUaJK72g13m2B77cQS\"]},\"/Users/sachin/code/dollar/contracts/oracle/IDAO.sol\":{\"keccak256\":\"0x8828ea89315241fe1028f0c41efc8adfa63c15d79fca40cfb1546841e40b482a\",\"urls\":[\"bzz-raw://e7751d5c6a8775e1863ca5373bc51037a33583bada738b5c5d003e346032d1f6\",\"dweb:/ipfs/QmTJMTZze8XkDUnz1vDL7h12QeoFt8fABxD6eJRdwZsx7K\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b50610112806100206000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c806360fe47b1146037578063900cf0cf146048575b600080fd5b60466042366004607c565b6062565b005b604e6067565b6040516059919060ac565b60405180910390f35b600055565b60005490565b803560768160bb565b92915050565b600060208284031215608d57600080fd5b600060978484606d565b949350505050565b60a68160b8565b82525050565b6020810160768284609f565b90565b60c28160b8565b811460cc57600080fd5b5056fea365627a7a7231582064eab5674e8992340d469a4700116495e36736c5826bd1812aa56fb82214bc2c6c6578706572696d656e74616cf564736f6c63430005110040",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060325760003560e01c806360fe47b1146037578063900cf0cf146048575b600080fd5b60466042366004607c565b6062565b005b604e6067565b6040516059919060ac565b60405180910390f35b600055565b60005490565b803560768160bb565b92915050565b600060208284031215608d57600080fd5b600060978484606d565b949350505050565b60a68160b8565b82525050565b6020810160768284609f565b90565b60c28160b8565b811460cc57600080fd5b5056fea365627a7a7231582064eab5674e8992340d469a4700116495e36736c5826bd1812aa56fb82214bc2c6c6578706572696d656e74616cf564736f6c63430005110040",
   "sourceMap": "720:224:31:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;720:224:31;;;;;;;",
   "deployedSourceMap": "720:224:31:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;720:224:31;;;;;;;;;;;;;;;;;;;;;;;;789:68;;;;;;;;;:::i;:::-;;863:79;;;:::i;:::-;;;;;;;;;;;;;;;;789:68;836:6;:14;789:68::o;863:79::-;903:7;929:6;863:79;:::o;5:130:-1:-;72:20;;97:33;72:20;97:33;;;57:78;;;;;142:241;;246:2;234:9;225:7;221:23;217:32;214:2;;;262:1;259;252:12;214:2;297:1;314:53;359:7;339:9;314:53;;;304:63;208:175;-1:-1;;;;208:175;390:113;473:24;491:5;473:24;;;468:3;461:37;455:48;;;510:213;628:2;613:18;;642:71;617:9;686:6;642:71;;730:72;792:5;775:27;809:117;878:24;896:5;878:24;;;871:5;868:35;858:2;;917:1;914;907:12;858:2;852:74;",
   "source": "/*\n    Copyright 2020 Empty Set Squad <emptysetsquad@protonmail.com>\n\n    Licensed under the Apache License, Version 2.0 (the \"License\");\n    you may not use this file except in compliance with the License.\n    You may obtain a copy of the License at\n\n    http://www.apache.org/licenses/LICENSE-2.0\n\n    Unless required by applicable law or agreed to in writing, software\n    distributed under the License is distributed on an \"AS IS\" BASIS,\n    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n    See the License for the specific language governing permissions and\n    limitations under the License.\n*/\n\npragma solidity ^0.5.17;\npragma experimental ABIEncoderV2;\n\nimport \"../oracle/IDAO.sol\";\n\ncontract MockSettableDAO is IDAO {\n    uint256 internal _epoch;\n\n    function set(uint256 epoch) external {\n        _epoch = epoch;\n    }\n\n    function epoch() external view returns (uint256) {\n        return _epoch;\n    }\n}\n",
-  "sourcePath": "/Users/sachin/code/dollar/protocol/contracts/mock/MockSettableDAO.sol",
+  "sourcePath": "/Users/sachin/code/dollar/contracts/mock/MockSettableDAO.sol",
   "ast": {
-    "absolutePath": "/Users/sachin/code/dollar/protocol/contracts/mock/MockSettableDAO.sol",
+    "absolutePath": "/Users/sachin/code/dollar/contracts/mock/MockSettableDAO.sol",
     "exportedSymbols": {
       "MockSettableDAO": [
         6842
@@ -70,7 +70,7 @@
         "src": "655:33:31"
       },
       {
-        "absolutePath": "/Users/sachin/code/dollar/protocol/contracts/oracle/IDAO.sol",
+        "absolutePath": "/Users/sachin/code/dollar/contracts/oracle/IDAO.sol",
         "file": "../oracle/IDAO.sol",
         "id": 6819,
         "nodeType": "ImportDirective",
@@ -335,7 +335,7 @@
   },
   "legacyAST": {
     "attributes": {
-      "absolutePath": "/Users/sachin/code/dollar/protocol/contracts/mock/MockSettableDAO.sol",
+      "absolutePath": "/Users/sachin/code/dollar/contracts/mock/MockSettableDAO.sol",
       "exportedSymbols": {
         "MockSettableDAO": [
           6842
@@ -370,7 +370,7 @@
       {
         "attributes": {
           "SourceUnit": 8625,
-          "absolutePath": "/Users/sachin/code/dollar/protocol/contracts/oracle/IDAO.sol",
+          "absolutePath": "/Users/sachin/code/dollar/contracts/oracle/IDAO.sol",
           "file": "../oracle/IDAO.sol",
           "scope": 6843,
           "symbolAliases": [
@@ -680,7 +680,7 @@
   },
   "networks": {},
   "schemaVersion": "3.3.3",
-  "updatedAt": "2021-01-01T20:11:00.387Z",
+  "updatedAt": "2021-01-01T20:54:00.179Z",
   "devdoc": {
     "methods": {}
   },

@@ -9,6 +9,7 @@ module.exports = function(deployer) {
     console.log(deployer.network);
     switch (deployer.network) {
       case 'development':
+      case 'test':
       case 'rinkeby':
       case 'ropsten':
         await deployImplementation(deployer);

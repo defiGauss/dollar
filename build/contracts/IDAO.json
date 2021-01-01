@@ -17,15 +17,15 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.17+commit.d19bba13\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"epoch\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/sachin/code/dollar/protocol/contracts/oracle/IDAO.sol\":\"IDAO\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/sachin/code/dollar/protocol/contracts/oracle/IDAO.sol\":{\"keccak256\":\"0x8828ea89315241fe1028f0c41efc8adfa63c15d79fca40cfb1546841e40b482a\",\"urls\":[\"bzz-raw://e7751d5c6a8775e1863ca5373bc51037a33583bada738b5c5d003e346032d1f6\",\"dweb:/ipfs/QmTJMTZze8XkDUnz1vDL7h12QeoFt8fABxD6eJRdwZsx7K\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.17+commit.d19bba13\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"epoch\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/sachin/code/dollar/contracts/oracle/IDAO.sol\":\"IDAO\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/sachin/code/dollar/contracts/oracle/IDAO.sol\":{\"keccak256\":\"0x8828ea89315241fe1028f0c41efc8adfa63c15d79fca40cfb1546841e40b482a\",\"urls\":[\"bzz-raw://e7751d5c6a8775e1863ca5373bc51037a33583bada738b5c5d003e346032d1f6\",\"dweb:/ipfs/QmTJMTZze8XkDUnz1vDL7h12QeoFt8fABxD6eJRdwZsx7K\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "/*\n    Copyright 2020 Empty Set Squad <emptysetsquad@protonmail.com>\n\n    Licensed under the Apache License, Version 2.0 (the \"License\");\n    you may not use this file except in compliance with the License.\n    You may obtain a copy of the License at\n\n    http://www.apache.org/licenses/LICENSE-2.0\n\n    Unless required by applicable law or agreed to in writing, software\n    distributed under the License is distributed on an \"AS IS\" BASIS,\n    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n    See the License for the specific language governing permissions and\n    limitations under the License.\n*/\n\npragma solidity ^0.5.17;\n\ncontract IDAO {\n    function epoch() external view returns (uint256);\n}",
-  "sourcePath": "/Users/sachin/code/dollar/protocol/contracts/oracle/IDAO.sol",
+  "sourcePath": "/Users/sachin/code/dollar/contracts/oracle/IDAO.sol",
   "ast": {
-    "absolutePath": "/Users/sachin/code/dollar/protocol/contracts/oracle/IDAO.sol",
+    "absolutePath": "/Users/sachin/code/dollar/contracts/oracle/IDAO.sol",
     "exportedSymbols": {
       "IDAO": [
         8624
@@ -121,7 +121,7 @@
   },
   "legacyAST": {
     "attributes": {
-      "absolutePath": "/Users/sachin/code/dollar/protocol/contracts/oracle/IDAO.sol",
+      "absolutePath": "/Users/sachin/code/dollar/contracts/oracle/IDAO.sol",
       "exportedSymbols": {
         "IDAO": [
           8624
@@ -242,7 +242,7 @@
   },
   "networks": {},
   "schemaVersion": "3.3.3",
-  "updatedAt": "2021-01-01T20:11:00.408Z",
+  "updatedAt": "2021-01-01T20:54:00.200Z",
   "devdoc": {
     "methods": {}
   },

@@ -1,15 +1,15 @@
 {
   "contractName": "Candidate",
   "abi": [],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.17+commit.d19bba13\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/sachin/code/dollar/protocol/contracts/dao/State.sol\":\"Candidate\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/sachin/code/dollar/protocol/contracts/dao/State.sol\":{\"keccak256\":\"0xb6e2e85b6f362b80cac2644209ccda5a5bdecd603195acf92e15a000cd2db527\",\"urls\":[\"bzz-raw://17438fb8f9944662b10127a39da92859b07028270719593ab4ad04dd2af3642b\",\"dweb:/ipfs/Qmba4mguxygscZdMHVbbcrsNRxop6qPEpeTX1TkLzG8nCC\"]},\"/Users/sachin/code/dollar/protocol/contracts/external/Decimal.sol\":{\"keccak256\":\"0x2940908a476566bd3650a1a90713be76ab9d9880d6454b9bb2ad81a24fede7e7\",\"urls\":[\"bzz-raw://092234c76e2321182f5dd316cf875ed0a7979441bdf85b121e2579fb91067de3\",\"dweb:/ipfs/QmPJMkXZXZFrKSwXp2qJQimLTGN4R8sJWAXWBahxQvDJTY\"]},\"/Users/sachin/code/dollar/protocol/contracts/oracle/IOracle.sol\":{\"keccak256\":\"0x867fcac1408b12e2f50691061c2ac4d0d86cb65ecbbc84db6b8bb676fe6febea\",\"urls\":[\"bzz-raw://6504fa65d6a0f0ec878ffebb3a7e0bd7e29e7e3a9687f55b9a22e396096a96fb\",\"dweb:/ipfs/QmTDYRpRB9XZEHVxYjdnocxdxY1pheyEzcEDMiFi5XTMfL\"]},\"/Users/sachin/code/dollar/protocol/contracts/token/IDollar.sol\":{\"keccak256\":\"0xa71961884d75d7f2062f5cc136d6e5aa71506a62b86a481abf1ef3489e13ac37\",\"urls\":[\"bzz-raw://90d54daead1f11a0cc45115748c18784288658c166d5e30e53bf654e2e0833b2\",\"dweb:/ipfs/QmTgwRAknt7HAmo8ANXqf9jehUyTMpgodVbADZP8VmNDTG\"]},\"@openzeppelin/contracts/math/SafeMath.sol\":{\"keccak256\":\"0x640b6dee7a4b830bdfd52b5031a07fc2b12209f5b2e29e5d364a7d37f69d8076\",\"urls\":[\"bzz-raw://31113152e1ddb78fe7a4197f247591ca894e93f916867beb708d8e747b6cc74f\",\"dweb:/ipfs/QmbZaJyXdpsYGykVhHH9qpVGQg9DGCxE2QufbCUy3daTgq\"]},\"@openzeppelin/contracts/token/ERC20/IERC20.sol\":{\"keccak256\":\"0xe5bb0f57cff3e299f360052ba50f1ea0fff046df2be070b6943e0e3c3fdad8a9\",\"urls\":[\"bzz-raw://59fd025151435da35faa8093a5c7a17de02de9d08ad27275c5cdf05050820d91\",\"dweb:/ipfs/QmQMvwEcPhoRXzbXyrdoeRtvLoifUW9Qh7Luho7bmUPRkc\"]},\"@uniswap/v2-core/contracts/interfaces/IUniswapV2Pair.sol\":{\"keccak256\":\"0x7c9bc70e5996c763e02ff38905282bc24fb242b0ef2519a003b36824fc524a4b\",\"urls\":[\"bzz-raw://85d5ad2dd23ee127f40907a12865a1e8cb5828814f6f2480285e1827dd72dedf\",\"dweb:/ipfs/QmayKQWJgWmr46DqWseADyUanmqxh662hPNdAkdHRjiQQH\"]}},\"version\":1}",
-  "bytecode": "0x6080604052348015600f57600080fd5b50604c80601d6000396000f3fe6080604052600080fdfea365627a7a72315820d86d40b31f6e073eb5f4e183d645e10b21b01f9e7718af11eb07535a394500796c6578706572696d656e74616cf564736f6c63430005110040",
-  "deployedBytecode": "0x6080604052600080fdfea365627a7a72315820d86d40b31f6e073eb5f4e183d645e10b21b01f9e7718af11eb07535a394500796c6578706572696d656e74616cf564736f6c63430005110040",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.17+commit.d19bba13\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/sachin/code/dollar/contracts/dao/State.sol\":\"Candidate\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/sachin/code/dollar/contracts/dao/State.sol\":{\"keccak256\":\"0xb6e2e85b6f362b80cac2644209ccda5a5bdecd603195acf92e15a000cd2db527\",\"urls\":[\"bzz-raw://17438fb8f9944662b10127a39da92859b07028270719593ab4ad04dd2af3642b\",\"dweb:/ipfs/Qmba4mguxygscZdMHVbbcrsNRxop6qPEpeTX1TkLzG8nCC\"]},\"/Users/sachin/code/dollar/contracts/external/Decimal.sol\":{\"keccak256\":\"0x2940908a476566bd3650a1a90713be76ab9d9880d6454b9bb2ad81a24fede7e7\",\"urls\":[\"bzz-raw://092234c76e2321182f5dd316cf875ed0a7979441bdf85b121e2579fb91067de3\",\"dweb:/ipfs/QmPJMkXZXZFrKSwXp2qJQimLTGN4R8sJWAXWBahxQvDJTY\"]},\"/Users/sachin/code/dollar/contracts/oracle/IOracle.sol\":{\"keccak256\":\"0x867fcac1408b12e2f50691061c2ac4d0d86cb65ecbbc84db6b8bb676fe6febea\",\"urls\":[\"bzz-raw://6504fa65d6a0f0ec878ffebb3a7e0bd7e29e7e3a9687f55b9a22e396096a96fb\",\"dweb:/ipfs/QmTDYRpRB9XZEHVxYjdnocxdxY1pheyEzcEDMiFi5XTMfL\"]},\"/Users/sachin/code/dollar/contracts/token/IDollar.sol\":{\"keccak256\":\"0xa71961884d75d7f2062f5cc136d6e5aa71506a62b86a481abf1ef3489e13ac37\",\"urls\":[\"bzz-raw://90d54daead1f11a0cc45115748c18784288658c166d5e30e53bf654e2e0833b2\",\"dweb:/ipfs/QmTgwRAknt7HAmo8ANXqf9jehUyTMpgodVbADZP8VmNDTG\"]},\"@openzeppelin/contracts/math/SafeMath.sol\":{\"keccak256\":\"0x640b6dee7a4b830bdfd52b5031a07fc2b12209f5b2e29e5d364a7d37f69d8076\",\"urls\":[\"bzz-raw://31113152e1ddb78fe7a4197f247591ca894e93f916867beb708d8e747b6cc74f\",\"dweb:/ipfs/QmbZaJyXdpsYGykVhHH9qpVGQg9DGCxE2QufbCUy3daTgq\"]},\"@openzeppelin/contracts/token/ERC20/IERC20.sol\":{\"keccak256\":\"0xe5bb0f57cff3e299f360052ba50f1ea0fff046df2be070b6943e0e3c3fdad8a9\",\"urls\":[\"bzz-raw://59fd025151435da35faa8093a5c7a17de02de9d08ad27275c5cdf05050820d91\",\"dweb:/ipfs/QmQMvwEcPhoRXzbXyrdoeRtvLoifUW9Qh7Luho7bmUPRkc\"]},\"@uniswap/v2-core/contracts/interfaces/IUniswapV2Pair.sol\":{\"keccak256\":\"0x7c9bc70e5996c763e02ff38905282bc24fb242b0ef2519a003b36824fc524a4b\",\"urls\":[\"bzz-raw://85d5ad2dd23ee127f40907a12865a1e8cb5828814f6f2480285e1827dd72dedf\",\"dweb:/ipfs/QmayKQWJgWmr46DqWseADyUanmqxh662hPNdAkdHRjiQQH\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50604c80601d6000396000f3fe6080604052600080fdfea365627a7a72315820d1f6b795b0ff9d84e0638e1977d86099d5be21a180b98cf111cd6f20346ddb366c6578706572696d656e74616cf564736f6c63430005110040",
+  "deployedBytecode": "0x6080604052600080fdfea365627a7a72315820d1f6b795b0ff9d84e0638e1977d86099d5be21a180b98cf111cd6f20346ddb366c6578706572696d656e74616cf564736f6c63430005110040",
   "sourceMap": "1484:283:13:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1484:283:13;;;;;;;",
   "deployedSourceMap": "1484:283:13:-;;;;;",
   "source": "/*\n    Copyright 2020 Empty Set Squad <emptysetsquad@protonmail.com>\n\n    Licensed under the Apache License, Version 2.0 (the \"License\");\n    you may not use this file except in compliance with the License.\n    You may obtain a copy of the License at\n\n    http://www.apache.org/licenses/LICENSE-2.0\n\n    Unless required by applicable law or agreed to in writing, software\n    distributed under the License is distributed on an \"AS IS\" BASIS,\n    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n    See the License for the specific language governing permissions and\n    limitations under the License.\n*/\n\npragma solidity ^0.5.17;\npragma experimental ABIEncoderV2;\n\nimport '@uniswap/v2-core/contracts/interfaces/IUniswapV2Pair.sol';\nimport \"../token/IDollar.sol\";\nimport \"../oracle/IOracle.sol\";\nimport \"../external/Decimal.sol\";\n\ncontract Account {\n    enum Status {\n        Frozen,\n        Fluid,\n        Locked\n    }\n\n    struct State {\n        uint256 staged;\n        uint256 balance;\n        mapping(uint256 => uint256) coupons;\n        mapping(address => uint256) couponAllowances;\n        uint256 fluidUntil;\n        uint256 lockedUntil;\n    }\n}\n\ncontract Epoch {\n    struct Global {\n        uint256 start;\n        uint256 period;\n        uint256 current;\n    }\n\n    struct Coupons {\n        uint256 outstanding;\n        uint256 expiration;\n        uint256[] expiring;\n    }\n\n    struct State {\n        uint256 bonded;\n        Coupons coupons;\n    }\n}\n\ncontract Candidate {\n    enum Vote {\n        UNDECIDED,\n        APPROVE,\n        REJECT\n    }\n\n    struct State {\n        uint256 start;\n        uint256 period;\n        uint256 approve;\n        uint256 reject;\n        mapping(address => Vote) votes;\n        bool initialized;\n    }\n}\n\ncontract Storage {\n    struct Provider {\n        IDollar dollar;\n        IOracle oracle;\n        address pool;\n    }\n\n    struct Balance {\n        uint256 supply;\n        uint256 bonded;\n        uint256 staged;\n        uint256 redeemable;\n        uint256 debt;\n        uint256 coupons;\n    }\n\n    struct State {\n        Epoch.Global epoch;\n        Balance balance;\n        Provider provider;\n\n        mapping(address => Account.State) accounts;\n        mapping(uint256 => Epoch.State) epochs;\n        mapping(address => Candidate.State) candidates;\n    }\n}\n\ncontract State {\n    Storage.State _state;\n}\n",
-  "sourcePath": "/Users/sachin/code/dollar/protocol/contracts/dao/State.sol",
+  "sourcePath": "/Users/sachin/code/dollar/contracts/dao/State.sol",
   "ast": {
-    "absolutePath": "/Users/sachin/code/dollar/protocol/contracts/dao/State.sol",
+    "absolutePath": "/Users/sachin/code/dollar/contracts/dao/State.sol",
     "exportedSymbols": {
       "Account": [
         4317
@@ -62,7 +62,7 @@
         "unitAlias": ""
       },
       {
-        "absolutePath": "/Users/sachin/code/dollar/protocol/contracts/token/IDollar.sol",
+        "absolutePath": "/Users/sachin/code/dollar/contracts/token/IDollar.sol",
         "file": "../token/IDollar.sol",
         "id": 4293,
         "nodeType": "ImportDirective",
@@ -73,7 +73,7 @@
         "unitAlias": ""
       },
       {
-        "absolutePath": "/Users/sachin/code/dollar/protocol/contracts/oracle/IOracle.sol",
+        "absolutePath": "/Users/sachin/code/dollar/contracts/oracle/IOracle.sol",
         "file": "../oracle/IOracle.sol",
         "id": 4294,
         "nodeType": "ImportDirective",
@@ -84,7 +84,7 @@
         "unitAlias": ""
       },
       {
-        "absolutePath": "/Users/sachin/code/dollar/protocol/contracts/external/Decimal.sol",
+        "absolutePath": "/Users/sachin/code/dollar/contracts/external/Decimal.sol",
         "file": "../external/Decimal.sol",
         "id": 4295,
         "nodeType": "ImportDirective",
@@ -1409,7 +1409,7 @@
   },
   "legacyAST": {
     "attributes": {
-      "absolutePath": "/Users/sachin/code/dollar/protocol/contracts/dao/State.sol",
+      "absolutePath": "/Users/sachin/code/dollar/contracts/dao/State.sol",
       "exportedSymbols": {
         "Account": [
           4317
@@ -1471,7 +1471,7 @@
       {
         "attributes": {
           "SourceUnit": 10580,
-          "absolutePath": "/Users/sachin/code/dollar/protocol/contracts/token/IDollar.sol",
+          "absolutePath": "/Users/sachin/code/dollar/contracts/token/IDollar.sol",
           "file": "../token/IDollar.sol",
           "scope": 4402,
           "symbolAliases": [
@@ -1486,7 +1486,7 @@
       {
         "attributes": {
           "SourceUnit": 8645,
-          "absolutePath": "/Users/sachin/code/dollar/protocol/contracts/oracle/IOracle.sol",
+          "absolutePath": "/Users/sachin/code/dollar/contracts/oracle/IOracle.sol",
           "file": "../oracle/IOracle.sol",
           "scope": 4402,
           "symbolAliases": [
@@ -1501,7 +1501,7 @@
       {
         "attributes": {
           "SourceUnit": 4950,
-          "absolutePath": "/Users/sachin/code/dollar/protocol/contracts/external/Decimal.sol",
+          "absolutePath": "/Users/sachin/code/dollar/contracts/external/Decimal.sol",
           "file": "../external/Decimal.sol",
           "scope": 4402,
           "symbolAliases": [
@@ -2897,7 +2897,7 @@
   },
   "networks": {},
   "schemaVersion": "3.3.3",
-  "updatedAt": "2021-01-01T20:11:00.345Z",
+  "updatedAt": "2021-01-01T20:54:00.136Z",
   "devdoc": {
     "methods": {}
   },

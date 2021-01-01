@@ -23,15 +23,15 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.17+commit.d19bba13\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[{\"internalType\":\"address\",\"name\":\"_account\",\"type\":\"address\"}],\"name\":\"isBlacklisted\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/sachin/code/dollar/protocol/contracts/oracle/IUSDC.sol\":\"IUSDC\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/sachin/code/dollar/protocol/contracts/oracle/IUSDC.sol\":{\"keccak256\":\"0x3c351db9c25ff00c0dc7eca786ce1d504c994530da1cf11db285410cf34ead83\",\"urls\":[\"bzz-raw://a75c699dd0370645bee5173e3aa57946d3ad9d4ff0d53e00eabaa16a3b778d60\",\"dweb:/ipfs/Qmb4htSvY2demty2tXVFjbK5qeejrWccr4Y1cqF1Do6sEu\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.17+commit.d19bba13\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[{\"internalType\":\"address\",\"name\":\"_account\",\"type\":\"address\"}],\"name\":\"isBlacklisted\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/sachin/code/dollar/contracts/oracle/IUSDC.sol\":\"IUSDC\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/sachin/code/dollar/contracts/oracle/IUSDC.sol\":{\"keccak256\":\"0x3c351db9c25ff00c0dc7eca786ce1d504c994530da1cf11db285410cf34ead83\",\"urls\":[\"bzz-raw://a75c699dd0370645bee5173e3aa57946d3ad9d4ff0d53e00eabaa16a3b778d60\",\"dweb:/ipfs/Qmb4htSvY2demty2tXVFjbK5qeejrWccr4Y1cqF1Do6sEu\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "/*\n    Copyright 2020 Empty Set Squad <emptysetsquad@protonmail.com>\n\n    Licensed under the Apache License, Version 2.0 (the \"License\");\n    you may not use this file except in compliance with the License.\n    You may obtain a copy of the License at\n\n    http://www.apache.org/licenses/LICENSE-2.0\n\n    Unless required by applicable law or agreed to in writing, software\n    distributed under the License is distributed on an \"AS IS\" BASIS,\n    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n    See the License for the specific language governing permissions and\n    limitations under the License.\n*/\n\npragma solidity ^0.5.17;\n\ncontract IUSDC {\n    function isBlacklisted(address _account) external view returns (bool);\n}",
-  "sourcePath": "/Users/sachin/code/dollar/protocol/contracts/oracle/IUSDC.sol",
+  "sourcePath": "/Users/sachin/code/dollar/contracts/oracle/IUSDC.sol",
   "ast": {
-    "absolutePath": "/Users/sachin/code/dollar/protocol/contracts/oracle/IUSDC.sol",
+    "absolutePath": "/Users/sachin/code/dollar/contracts/oracle/IUSDC.sol",
     "exportedSymbols": {
       "IUSDC": [
         8654
@@ -155,7 +155,7 @@
   },
   "legacyAST": {
     "attributes": {
-      "absolutePath": "/Users/sachin/code/dollar/protocol/contracts/oracle/IUSDC.sol",
+      "absolutePath": "/Users/sachin/code/dollar/contracts/oracle/IUSDC.sol",
       "exportedSymbols": {
         "IUSDC": [
           8654
@@ -299,7 +299,7 @@
   },
   "networks": {},
   "schemaVersion": "3.3.3",
-  "updatedAt": "2021-01-01T20:11:00.408Z",
+  "updatedAt": "2021-01-01T20:54:00.201Z",
   "devdoc": {
     "methods": {}
   },

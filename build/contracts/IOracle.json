@@ -53,15 +53,15 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.17+commit.d19bba13\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[],\"name\":\"capture\",\"outputs\":[{\"components\":[{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"internalType\":\"struct Decimal.D256\",\"name\":\"\",\"type\":\"tuple\"},{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"pair\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"setup\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/sachin/code/dollar/protocol/contracts/oracle/IOracle.sol\":\"IOracle\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/sachin/code/dollar/protocol/contracts/external/Decimal.sol\":{\"keccak256\":\"0x2940908a476566bd3650a1a90713be76ab9d9880d6454b9bb2ad81a24fede7e7\",\"urls\":[\"bzz-raw://092234c76e2321182f5dd316cf875ed0a7979441bdf85b121e2579fb91067de3\",\"dweb:/ipfs/QmPJMkXZXZFrKSwXp2qJQimLTGN4R8sJWAXWBahxQvDJTY\"]},\"/Users/sachin/code/dollar/protocol/contracts/oracle/IOracle.sol\":{\"keccak256\":\"0x867fcac1408b12e2f50691061c2ac4d0d86cb65ecbbc84db6b8bb676fe6febea\",\"urls\":[\"bzz-raw://6504fa65d6a0f0ec878ffebb3a7e0bd7e29e7e3a9687f55b9a22e396096a96fb\",\"dweb:/ipfs/QmTDYRpRB9XZEHVxYjdnocxdxY1pheyEzcEDMiFi5XTMfL\"]},\"@openzeppelin/contracts/math/SafeMath.sol\":{\"keccak256\":\"0x640b6dee7a4b830bdfd52b5031a07fc2b12209f5b2e29e5d364a7d37f69d8076\",\"urls\":[\"bzz-raw://31113152e1ddb78fe7a4197f247591ca894e93f916867beb708d8e747b6cc74f\",\"dweb:/ipfs/QmbZaJyXdpsYGykVhHH9qpVGQg9DGCxE2QufbCUy3daTgq\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.17+commit.d19bba13\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[],\"name\":\"capture\",\"outputs\":[{\"components\":[{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"internalType\":\"struct Decimal.D256\",\"name\":\"\",\"type\":\"tuple\"},{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"pair\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"setup\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/sachin/code/dollar/contracts/oracle/IOracle.sol\":\"IOracle\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/sachin/code/dollar/contracts/external/Decimal.sol\":{\"keccak256\":\"0x2940908a476566bd3650a1a90713be76ab9d9880d6454b9bb2ad81a24fede7e7\",\"urls\":[\"bzz-raw://092234c76e2321182f5dd316cf875ed0a7979441bdf85b121e2579fb91067de3\",\"dweb:/ipfs/QmPJMkXZXZFrKSwXp2qJQimLTGN4R8sJWAXWBahxQvDJTY\"]},\"/Users/sachin/code/dollar/contracts/oracle/IOracle.sol\":{\"keccak256\":\"0x867fcac1408b12e2f50691061c2ac4d0d86cb65ecbbc84db6b8bb676fe6febea\",\"urls\":[\"bzz-raw://6504fa65d6a0f0ec878ffebb3a7e0bd7e29e7e3a9687f55b9a22e396096a96fb\",\"dweb:/ipfs/QmTDYRpRB9XZEHVxYjdnocxdxY1pheyEzcEDMiFi5XTMfL\"]},\"@openzeppelin/contracts/math/SafeMath.sol\":{\"keccak256\":\"0x640b6dee7a4b830bdfd52b5031a07fc2b12209f5b2e29e5d364a7d37f69d8076\",\"urls\":[\"bzz-raw://31113152e1ddb78fe7a4197f247591ca894e93f916867beb708d8e747b6cc74f\",\"dweb:/ipfs/QmbZaJyXdpsYGykVhHH9qpVGQg9DGCxE2QufbCUy3daTgq\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "/*\n    Copyright 2020 Empty Set Squad <emptysetsquad@protonmail.com>\n\n    Licensed under the Apache License, Version 2.0 (the \"License\");\n    you may not use this file except in compliance with the License.\n    You may obtain a copy of the License at\n\n    http://www.apache.org/licenses/LICENSE-2.0\n\n    Unless required by applicable law or agreed to in writing, software\n    distributed under the License is distributed on an \"AS IS\" BASIS,\n    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n    See the License for the specific language governing permissions and\n    limitations under the License.\n*/\n\npragma solidity ^0.5.17;\npragma experimental ABIEncoderV2;\n\nimport \"../external/Decimal.sol\";\n\ncontract IOracle {\n    function setup() public;\n    function capture() public returns (Decimal.D256 memory, bool);\n    function pair() external view returns (address);\n}",
-  "sourcePath": "/Users/sachin/code/dollar/protocol/contracts/oracle/IOracle.sol",
+  "sourcePath": "/Users/sachin/code/dollar/contracts/oracle/IOracle.sol",
   "ast": {
-    "absolutePath": "/Users/sachin/code/dollar/protocol/contracts/oracle/IOracle.sol",
+    "absolutePath": "/Users/sachin/code/dollar/contracts/oracle/IOracle.sol",
     "exportedSymbols": {
       "IOracle": [
         8644
@@ -91,7 +91,7 @@
         "src": "655:33:41"
       },
       {
-        "absolutePath": "/Users/sachin/code/dollar/protocol/contracts/external/Decimal.sol",
+        "absolutePath": "/Users/sachin/code/dollar/contracts/external/Decimal.sol",
         "file": "../external/Decimal.sol",
         "id": 8628,
         "nodeType": "ImportDirective",
@@ -287,7 +287,7 @@
   },
   "legacyAST": {
     "attributes": {
-      "absolutePath": "/Users/sachin/code/dollar/protocol/contracts/oracle/IOracle.sol",
+      "absolutePath": "/Users/sachin/code/dollar/contracts/oracle/IOracle.sol",
       "exportedSymbols": {
         "IOracle": [
           8644
@@ -322,7 +322,7 @@
       {
         "attributes": {
           "SourceUnit": 4950,
-          "absolutePath": "/Users/sachin/code/dollar/protocol/contracts/external/Decimal.sol",
+          "absolutePath": "/Users/sachin/code/dollar/contracts/external/Decimal.sol",
           "file": "../external/Decimal.sol",
           "scope": 8645,
           "symbolAliases": [
@@ -573,7 +573,7 @@
   },
   "networks": {},
   "schemaVersion": "3.3.3",
-  "updatedAt": "2021-01-01T20:11:00.408Z",
+  "updatedAt": "2021-01-01T20:54:00.200Z",
   "devdoc": {
     "methods": {}
   },

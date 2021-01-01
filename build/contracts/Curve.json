@@ -1,15 +1,15 @@
 {
   "contractName": "Curve",
   "abi": [],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.17+commit.d19bba13\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/sachin/code/dollar/protocol/contracts/dao/Curve.sol\":\"Curve\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/sachin/code/dollar/protocol/contracts/Constants.sol\":{\"keccak256\":\"0x02a03751bc0d0c244f00077365bb343ae4c35a24e6075281643fefde8dd776e7\",\"urls\":[\"bzz-raw://2968d687755ec5440e7d5a9b0721e505b01bf2e67ce11452f499a0dc60181998\",\"dweb:/ipfs/QmRs8692EaDjRk5b2DeUX2Ltn6o42DzypgyjrSDKrh8Z4o\"]},\"/Users/sachin/code/dollar/protocol/contracts/dao/Curve.sol\":{\"keccak256\":\"0x11d3034dacc9f1873aaa29036528200dfb977884c2d4d07b0c7a38b18cc5b184\",\"urls\":[\"bzz-raw://7ddaa8c974a400dceb6ff9a781f4ba44d7929c01d3b7cf904524d77009a7df89\",\"dweb:/ipfs/QmdVZv2TpGkayy2WYvSyF7ZMUHUJPQzLrN8RhGpgn95uJi\"]},\"/Users/sachin/code/dollar/protocol/contracts/external/Decimal.sol\":{\"keccak256\":\"0x2940908a476566bd3650a1a90713be76ab9d9880d6454b9bb2ad81a24fede7e7\",\"urls\":[\"bzz-raw://092234c76e2321182f5dd316cf875ed0a7979441bdf85b121e2579fb91067de3\",\"dweb:/ipfs/QmPJMkXZXZFrKSwXp2qJQimLTGN4R8sJWAXWBahxQvDJTY\"]},\"@openzeppelin/contracts/math/SafeMath.sol\":{\"keccak256\":\"0x640b6dee7a4b830bdfd52b5031a07fc2b12209f5b2e29e5d364a7d37f69d8076\",\"urls\":[\"bzz-raw://31113152e1ddb78fe7a4197f247591ca894e93f916867beb708d8e747b6cc74f\",\"dweb:/ipfs/QmbZaJyXdpsYGykVhHH9qpVGQg9DGCxE2QufbCUy3daTgq\"]}},\"version\":1}",
-  "bytecode": "0x6080604052348015600f57600080fd5b50604c80601d6000396000f3fe6080604052600080fdfea365627a7a7231582047ede838d0edf24b7e509279276ac38dde0db7db522a2a1a94faaec6a7f3ce3d6c6578706572696d656e74616cf564736f6c63430005110040",
-  "deployedBytecode": "0x6080604052600080fdfea365627a7a7231582047ede838d0edf24b7e509279276ac38dde0db7db522a2a1a94faaec6a7f3ce3d6c6578706572696d656e74616cf564736f6c63430005110040",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.17+commit.d19bba13\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/sachin/code/dollar/contracts/dao/Curve.sol\":\"Curve\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/sachin/code/dollar/contracts/Constants.sol\":{\"keccak256\":\"0x02a03751bc0d0c244f00077365bb343ae4c35a24e6075281643fefde8dd776e7\",\"urls\":[\"bzz-raw://2968d687755ec5440e7d5a9b0721e505b01bf2e67ce11452f499a0dc60181998\",\"dweb:/ipfs/QmRs8692EaDjRk5b2DeUX2Ltn6o42DzypgyjrSDKrh8Z4o\"]},\"/Users/sachin/code/dollar/contracts/dao/Curve.sol\":{\"keccak256\":\"0x11d3034dacc9f1873aaa29036528200dfb977884c2d4d07b0c7a38b18cc5b184\",\"urls\":[\"bzz-raw://7ddaa8c974a400dceb6ff9a781f4ba44d7929c01d3b7cf904524d77009a7df89\",\"dweb:/ipfs/QmdVZv2TpGkayy2WYvSyF7ZMUHUJPQzLrN8RhGpgn95uJi\"]},\"/Users/sachin/code/dollar/contracts/external/Decimal.sol\":{\"keccak256\":\"0x2940908a476566bd3650a1a90713be76ab9d9880d6454b9bb2ad81a24fede7e7\",\"urls\":[\"bzz-raw://092234c76e2321182f5dd316cf875ed0a7979441bdf85b121e2579fb91067de3\",\"dweb:/ipfs/QmPJMkXZXZFrKSwXp2qJQimLTGN4R8sJWAXWBahxQvDJTY\"]},\"@openzeppelin/contracts/math/SafeMath.sol\":{\"keccak256\":\"0x640b6dee7a4b830bdfd52b5031a07fc2b12209f5b2e29e5d364a7d37f69d8076\",\"urls\":[\"bzz-raw://31113152e1ddb78fe7a4197f247591ca894e93f916867beb708d8e747b6cc74f\",\"dweb:/ipfs/QmbZaJyXdpsYGykVhHH9qpVGQg9DGCxE2QufbCUy3daTgq\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50604c80601d6000396000f3fe6080604052600080fdfea365627a7a7231582014af9167f91020e8c740e3ee816e3e90c4b3702e38be615e617a86f54cd560ee6c6578706572696d656e74616cf564736f6c63430005110040",
+  "deployedBytecode": "0x6080604052600080fdfea365627a7a7231582014af9167f91020e8c740e3ee816e3e90c4b3702e38be615e617a86f54cd560ee6c6578706572696d656e74616cf564736f6c63430005110040",
   "sourceMap": "804:2246:4:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;804:2246:4;;;;;;;",
   "deployedSourceMap": "804:2246:4:-;;;;;",
   "source": "/*\n    Copyright 2020 Empty Set Squad <emptysetsquad@protonmail.com>\n\n    Licensed under the Apache License, Version 2.0 (the \"License\");\n    you may not use this file except in compliance with the License.\n    You may obtain a copy of the License at\n\n    http://www.apache.org/licenses/LICENSE-2.0\n\n    Unless required by applicable law or agreed to in writing, software\n    distributed under the License is distributed on an \"AS IS\" BASIS,\n    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n    See the License for the specific language governing permissions and\n    limitations under the License.\n*/\n\npragma solidity ^0.5.17;\npragma experimental ABIEncoderV2;\n\nimport \"@openzeppelin/contracts/math/SafeMath.sol\";\nimport \"../external/Decimal.sol\";\nimport \"../Constants.sol\";\n\ncontract Curve {\n    using SafeMath for uint256;\n    using Decimal for Decimal.D256;\n\n    function calculateCouponPremium(\n        uint256 totalSupply,\n        uint256 totalDebt,\n        uint256 amount\n    ) internal pure returns (uint256) {\n        return effectivePremium(totalSupply, totalDebt, amount).mul(amount).asUint256();\n    }\n\n    function effectivePremium(\n        uint256 totalSupply,\n        uint256 totalDebt,\n        uint256 amount\n    ) private pure returns (Decimal.D256 memory) {\n        Decimal.D256 memory debtRatio = Decimal.ratio(totalDebt, totalSupply);\n        Decimal.D256 memory debtRatioUpperBound = Constants.getDebtRatioCap();\n\n        uint256 totalSupplyEnd = totalSupply.sub(amount);\n        uint256 totalDebtEnd = totalDebt.sub(amount);\n        Decimal.D256 memory debtRatioEnd = Decimal.ratio(totalDebtEnd, totalSupplyEnd);\n\n        if (debtRatio.greaterThan(debtRatioUpperBound)) {\n            if (debtRatioEnd.greaterThan(debtRatioUpperBound)) {\n                return curve(debtRatioUpperBound);\n            }\n\n            Decimal.D256 memory premiumCurve = curveMean(debtRatioEnd, debtRatioUpperBound);\n            Decimal.D256 memory premiumCurveDelta = debtRatioUpperBound.sub(debtRatioEnd);\n            Decimal.D256 memory premiumFlat = curve(debtRatioUpperBound);\n            Decimal.D256 memory premiumFlatDelta = debtRatio.sub(debtRatioUpperBound);\n            return (premiumCurve.mul(premiumCurveDelta)).add(premiumFlat.mul(premiumFlatDelta))\n                .div(premiumCurveDelta.add(premiumFlatDelta));\n        }\n\n        return curveMean(debtRatioEnd, debtRatio);\n    }\n\n    // 1/((1-R)^2)-1\n    function curve(Decimal.D256 memory debtRatio) private pure returns (Decimal.D256 memory) {\n        return Decimal.one().div(\n            (Decimal.one().sub(debtRatio)).pow(2)\n        ).sub(Decimal.one());\n    }\n\n    // 1/((1-R)(1-R'))-1\n    function curveMean(\n        Decimal.D256 memory lower,\n        Decimal.D256 memory upper\n    ) private pure returns (Decimal.D256 memory) {\n        if (lower.equals(upper)) {\n            return curve(lower);\n        }\n\n        return Decimal.one().div(\n            (Decimal.one().sub(upper)).mul(Decimal.one().sub(lower))\n        ).sub(Decimal.one());\n    }\n}\n",
-  "sourcePath": "/Users/sachin/code/dollar/protocol/contracts/dao/Curve.sol",
+  "sourcePath": "/Users/sachin/code/dollar/contracts/dao/Curve.sol",
   "ast": {
-    "absolutePath": "/Users/sachin/code/dollar/protocol/contracts/dao/Curve.sol",
+    "absolutePath": "/Users/sachin/code/dollar/contracts/dao/Curve.sol",
     "exportedSymbols": {
       "Curve": [
         1449
@@ -50,7 +50,7 @@
         "unitAlias": ""
       },
       {
-        "absolutePath": "/Users/sachin/code/dollar/protocol/contracts/external/Decimal.sol",
+        "absolutePath": "/Users/sachin/code/dollar/contracts/external/Decimal.sol",
         "file": "../external/Decimal.sol",
         "id": 1215,
         "nodeType": "ImportDirective",
@@ -61,7 +61,7 @@
         "unitAlias": ""
       },
       {
-        "absolutePath": "/Users/sachin/code/dollar/protocol/contracts/Constants.sol",
+        "absolutePath": "/Users/sachin/code/dollar/contracts/Constants.sol",
         "file": "../Constants.sol",
         "id": 1216,
         "nodeType": "ImportDirective",
@@ -3224,7 +3224,7 @@
   },
   "legacyAST": {
     "attributes": {
-      "absolutePath": "/Users/sachin/code/dollar/protocol/contracts/dao/Curve.sol",
+      "absolutePath": "/Users/sachin/code/dollar/contracts/dao/Curve.sol",
       "exportedSymbols": {
         "Curve": [
           1449
@@ -3274,7 +3274,7 @@
       {
         "attributes": {
           "SourceUnit": 4950,
-          "absolutePath": "/Users/sachin/code/dollar/protocol/contracts/external/Decimal.sol",
+          "absolutePath": "/Users/sachin/code/dollar/contracts/external/Decimal.sol",
           "file": "../external/Decimal.sol",
           "scope": 1450,
           "symbolAliases": [
@@ -3289,7 +3289,7 @@
       {
         "attributes": {
           "SourceUnit": 371,
-          "absolutePath": "/Users/sachin/code/dollar/protocol/contracts/Constants.sol",
+          "absolutePath": "/Users/sachin/code/dollar/contracts/Constants.sol",
           "file": "../Constants.sol",
           "scope": 1450,
           "symbolAliases": [
@@ -6767,7 +6767,7 @@
   },
   "networks": {},
   "schemaVersion": "3.3.3",
-  "updatedAt": "2021-01-01T20:11:00.303Z",
+  "updatedAt": "2021-01-01T20:54:00.092Z",
   "devdoc": {
     "methods": {}
   },
