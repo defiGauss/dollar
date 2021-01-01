@@ -1,0 +1,833 @@
+{
+  "contractName": "MockCurve",
+  "abi": [
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "totalSupply",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "totalDebt",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "calculateCouponsE",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "pure",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.17+commit.d19bba13\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"totalSupply\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"totalDebt\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"calculateCouponsE\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/sachin/code/dollar/protocol/contracts/mock/MockCurve.sol\":\"MockCurve\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/sachin/code/dollar/protocol/contracts/Constants.sol\":{\"keccak256\":\"0x02a03751bc0d0c244f00077365bb343ae4c35a24e6075281643fefde8dd776e7\",\"urls\":[\"bzz-raw://2968d687755ec5440e7d5a9b0721e505b01bf2e67ce11452f499a0dc60181998\",\"dweb:/ipfs/QmRs8692EaDjRk5b2DeUX2Ltn6o42DzypgyjrSDKrh8Z4o\"]},\"/Users/sachin/code/dollar/protocol/contracts/dao/Curve.sol\":{\"keccak256\":\"0x11d3034dacc9f1873aaa29036528200dfb977884c2d4d07b0c7a38b18cc5b184\",\"urls\":[\"bzz-raw://7ddaa8c974a400dceb6ff9a781f4ba44d7929c01d3b7cf904524d77009a7df89\",\"dweb:/ipfs/QmdVZv2TpGkayy2WYvSyF7ZMUHUJPQzLrN8RhGpgn95uJi\"]},\"/Users/sachin/code/dollar/protocol/contracts/external/Decimal.sol\":{\"keccak256\":\"0x2940908a476566bd3650a1a90713be76ab9d9880d6454b9bb2ad81a24fede7e7\",\"urls\":[\"bzz-raw://092234c76e2321182f5dd316cf875ed0a7979441bdf85b121e2579fb91067de3\",\"dweb:/ipfs/QmPJMkXZXZFrKSwXp2qJQimLTGN4R8sJWAXWBahxQvDJTY\"]},\"/Users/sachin/code/dollar/protocol/contracts/mock/MockCurve.sol\":{\"keccak256\":\"0xfac1f09da4d8d534fe6a6da3261733a7fd767efd64548f09f47ddcb10ea66e55\",\"urls\":[\"bzz-raw://94554c25a212aac9d4c8376589613e11231325e79c7c8193ddf5b6387173b90c\",\"dweb:/ipfs/QmXnvQy7EBrRrH9GW6zjcqpnh6fV5TuKuTkTQRTo3iRFoE\"]},\"@openzeppelin/contracts/math/SafeMath.sol\":{\"keccak256\":\"0x640b6dee7a4b830bdfd52b5031a07fc2b12209f5b2e29e5d364a7d37f69d8076\",\"urls\":[\"bzz-raw://31113152e1ddb78fe7a4197f247591ca894e93f916867beb708d8e747b6cc74f\",\"dweb:/ipfs/QmbZaJyXdpsYGykVhHH9qpVGQg9DGCxE2QufbCUy3daTgq\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b50610879806100206000396000f3fe608060405234801561001057600080fd5b506004361061002b5760003560e01c806317a2e00014610030575b600080fd5b61004361003e366004610686565b610059565b60405161005091906107c7565b60405180910390f35b6000610066848484610070565b90505b9392505050565b600061006661009083610084878787610095565b9063ffffffff61020e16565b610240565b61009d610668565b6100a5610668565b6100af848661025d565b90506100b9610668565b6100c1610283565b905060006100d5878663ffffffff6102a516565b905060006100e9878763ffffffff6102a516565b90506100f3610668565b6100fd828461025d565b905061010f858563ffffffff6102e716565b156101f757610124818563ffffffff6102e716565b1561013e57610132846102fd565b95505050505050610069565b610146610668565b6101508286610344565b905061015a610668565b61016a868463ffffffff6103a616565b9050610174610668565b61017d876102fd565b9050610187610668565b610197898963ffffffff6103a616565b90506101e76101ac848363ffffffff6103cf16565b6101db6101bf858563ffffffff6103f816565b6101cf888863ffffffff6103f816565b9063ffffffff6103cf16565b9063ffffffff61042616565b9950505050505050505050610069565b6102018186610344565b9998505050505050505050565b610216610668565b604080516020810190915283518190610235908563ffffffff61045416565b905290505b92915050565b805160009061023a90670de0b6b3a764000063ffffffff61049716565b610265610668565b604051806020016040528061023585670de0b6b3a7640000866104d9565b61028b610668565b506040805160208101909152670214e8348c4f0000815290565b600061006983836040518060400160405280601e81526020017f536166654d6174683a207375627472616374696f6e206f766572666c6f7700008152506104fb565b60006102f38383610527565b6002149392505050565b610305610668565b61023a610310610559565b61032461033c600261033087610324610559565b9063ffffffff6103a616565b9063ffffffff61057b16565b6101db610559565b61034c610668565b61035c838363ffffffff6105d116565b156103715761036a836102fd565b905061023a565b61006961037c610559565b61032461033c61038e87610324610559565b61039a87610324610559565b9063ffffffff6103f816565b6103ae610668565b6040805160208101909152825184518291610235919063ffffffff6102a516565b6103d7610668565b6040805160208101909152825184518291610235919063ffffffff6105d816565b610400610668565b604051806020016040528061023585600001518560000151670de0b6b3a76400006104d9565b61042e610668565b60405180602001604052806102358560000151670de0b6b3a764000086600001516104d9565b6000826104635750600061023a565b8282028284828161047057fe5b04146100695760405162461bcd60e51b815260040161048e906107b7565b60405180910390fd5b600061006983836040518060400160405280601a81526020017f536166654d6174683a206469766973696f6e206279207a65726f0000000000008152506105fd565b6000610066826104ef868663ffffffff61045416565b9063ffffffff61049716565b6000818484111561051f5760405162461bcd60e51b815260040161048e9190610796565b505050900390565b80518251600091141561053c5750600161023a565b815183511161054c57600061054f565b60025b60ff169392505050565b610561610668565b506040805160208101909152670de0b6b3a7640000815290565b610583610668565b816105925761036a6001610634565b61059a610668565b5060408051602081019091528351815260015b838110156105c9576105bf82866103f8565b91506001016105ad565b509392505050565b5190511490565b6000828201838110156100695760405162461bcd60e51b815260040161048e906107a7565b6000818361061e5760405162461bcd60e51b815260040161048e9190610796565b50600083858161062a57fe5b0495945050505050565b61063c610668565b60408051602081019091528061066084670de0b6b3a764000063ffffffff61045416565b905292915050565b6040518060200160405280600081525090565b803561023a8161081f565b60008060006060848603121561069b57600080fd5b60006106a7868661067b565b93505060206106b88682870161067b565b92505060406106c98682870161067b565b9150509250925092565b60006106de826107d5565b6106e881856107d9565b93506106f88185602086016107e5565b61070181610815565b9093019392505050565b6000610718601b836107d9565b7f536166654d6174683a206164646974696f6e206f766572666c6f770000000000815260200192915050565b60006107516021836107d9565b7f536166654d6174683a206d756c7469706c69636174696f6e206f766572666c6f8152607760f81b602082015260400192915050565b610790816107e2565b82525050565b6020808252810161006981846106d3565b6020808252810161023a8161070b565b6020808252810161023a81610744565b6020810161023a8284610787565b5190565b90815260200190565b90565b60005b838110156108005781810151838201526020016107e8565b8381111561080f576000848401525b50505050565b601f01601f191690565b610828816107e2565b811461083357600080fd5b5056fea365627a7a723158206516ea2d11ce3a1ac4a8314d64028525af97ae7a95af1be5d6e2aec786d4fd506c6578706572696d656e74616cf564736f6c63430005110040",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b506004361061002b5760003560e01c806317a2e00014610030575b600080fd5b61004361003e366004610686565b610059565b60405161005091906107c7565b60405180910390f35b6000610066848484610070565b90505b9392505050565b600061006661009083610084878787610095565b9063ffffffff61020e16565b610240565b61009d610668565b6100a5610668565b6100af848661025d565b90506100b9610668565b6100c1610283565b905060006100d5878663ffffffff6102a516565b905060006100e9878763ffffffff6102a516565b90506100f3610668565b6100fd828461025d565b905061010f858563ffffffff6102e716565b156101f757610124818563ffffffff6102e716565b1561013e57610132846102fd565b95505050505050610069565b610146610668565b6101508286610344565b905061015a610668565b61016a868463ffffffff6103a616565b9050610174610668565b61017d876102fd565b9050610187610668565b610197898963ffffffff6103a616565b90506101e76101ac848363ffffffff6103cf16565b6101db6101bf858563ffffffff6103f816565b6101cf888863ffffffff6103f816565b9063ffffffff6103cf16565b9063ffffffff61042616565b9950505050505050505050610069565b6102018186610344565b9998505050505050505050565b610216610668565b604080516020810190915283518190610235908563ffffffff61045416565b905290505b92915050565b805160009061023a90670de0b6b3a764000063ffffffff61049716565b610265610668565b604051806020016040528061023585670de0b6b3a7640000866104d9565b61028b610668565b506040805160208101909152670214e8348c4f0000815290565b600061006983836040518060400160405280601e81526020017f536166654d6174683a207375627472616374696f6e206f766572666c6f7700008152506104fb565b60006102f38383610527565b6002149392505050565b610305610668565b61023a610310610559565b61032461033c600261033087610324610559565b9063ffffffff6103a616565b9063ffffffff61057b16565b6101db610559565b61034c610668565b61035c838363ffffffff6105d116565b156103715761036a836102fd565b905061023a565b61006961037c610559565b61032461033c61038e87610324610559565b61039a87610324610559565b9063ffffffff6103f816565b6103ae610668565b6040805160208101909152825184518291610235919063ffffffff6102a516565b6103d7610668565b6040805160208101909152825184518291610235919063ffffffff6105d816565b610400610668565b604051806020016040528061023585600001518560000151670de0b6b3a76400006104d9565b61042e610668565b60405180602001604052806102358560000151670de0b6b3a764000086600001516104d9565b6000826104635750600061023a565b8282028284828161047057fe5b04146100695760405162461bcd60e51b815260040161048e906107b7565b60405180910390fd5b600061006983836040518060400160405280601a81526020017f536166654d6174683a206469766973696f6e206279207a65726f0000000000008152506105fd565b6000610066826104ef868663ffffffff61045416565b9063ffffffff61049716565b6000818484111561051f5760405162461bcd60e51b815260040161048e9190610796565b505050900390565b80518251600091141561053c5750600161023a565b815183511161054c57600061054f565b60025b60ff169392505050565b610561610668565b506040805160208101909152670de0b6b3a7640000815290565b610583610668565b816105925761036a6001610634565b61059a610668565b5060408051602081019091528351815260015b838110156105c9576105bf82866103f8565b91506001016105ad565b509392505050565b5190511490565b6000828201838110156100695760405162461bcd60e51b815260040161048e906107a7565b6000818361061e5760405162461bcd60e51b815260040161048e9190610796565b50600083858161062a57fe5b0495945050505050565b61063c610668565b60408051602081019091528061066084670de0b6b3a764000063ffffffff61045416565b905292915050565b6040518060200160405280600081525090565b803561023a8161081f565b60008060006060848603121561069b57600080fd5b60006106a7868661067b565b93505060206106b88682870161067b565b92505060406106c98682870161067b565b9150509250925092565b60006106de826107d5565b6106e881856107d9565b93506106f88185602086016107e5565b61070181610815565b9093019392505050565b6000610718601b836107d9565b7f536166654d6174683a206164646974696f6e206f766572666c6f770000000000815260200192915050565b60006107516021836107d9565b7f536166654d6174683a206d756c7469706c69636174696f6e206f766572666c6f8152607760f81b602082015260400192915050565b610790816107e2565b82525050565b6020808252810161006981846106d3565b6020808252810161023a8161070b565b6020808252810161023a81610744565b6020810161023a8284610787565b5190565b90815260200190565b90565b60005b838110156108005781810151838201526020016107e8565b8381111561080f576000848401525b50505050565b601f01601f191690565b610828816107e2565b811461083357600080fd5b5056fea365627a7a723158206516ea2d11ce3a1ac4a8314d64028525af97ae7a95af1be5d6e2aec786d4fd506c6578706572696d656e74616cf564736f6c63430005110040",
+  "sourceMap": "718:296:22:-;;;752:25;8:9:-1;5:2;;;30:1;27;20:12;5:2;752:25:22;718:296;;;;;;",
+  "deployedSourceMap": "718:296:22:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;718:296:22;;;;;;;;;;;;;;;;;;;783:229;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;919:7;945:60;974:11;987:9;998:6;945:28;:60::i;:::-;938:67;;783:229;;;;;;:::o;894:246:4:-;1035:7;1061:72;:60;1114:6;1061:48;1078:11;1091:9;1102:6;1061:16;:48::i;:::-;:52;:60;:52;:60;:::i;:::-;:70;:72::i;1146:1277::-;1280:19;;:::i;:::-;1311:29;;:::i;:::-;1343:37;1357:9;1368:11;1343:13;:37::i;:::-;1311:69;;1390:39;;:::i;:::-;1432:27;:25;:27::i;:::-;1390:69;-1:-1:-1;1470:22:4;1495:23;:11;1511:6;1495:23;:15;:23;:::i;:::-;1470:48;-1:-1:-1;1528:20:4;1551:21;:9;1565:6;1551:21;:13;:21;:::i;:::-;1528:44;;1582:32;;:::i;:::-;1617:43;1631:12;1645:14;1617:13;:43::i;:::-;1582:78;-1:-1:-1;1675:42:4;:9;1697:19;1675:42;:21;:42;:::i;:::-;1671:694;;;1737:45;:12;1762:19;1737:45;:24;:45;:::i;:::-;1733:117;;;1809:26;1815:19;1809:5;:26::i;:::-;1802:33;;;;;;;;;1733:117;1864:32;;:::i;:::-;1899:44;1909:12;1923:19;1899:9;:44::i;:::-;1864:79;;1957:37;;:::i;:::-;1997;:19;2021:12;1997:37;:23;:37;:::i;:::-;1957:77;;2048:31;;:::i;:::-;2082:26;2088:19;2082:5;:26::i;:::-;2048:60;;2122:36;;:::i;:::-;2161:34;:9;2175:19;2161:34;:13;:34;:::i;:::-;2122:73;-1:-1:-1;2216:138:4;2314:39;:17;2122:73;2314:39;:21;:39;:::i;:::-;2216:76;2258:33;:11;2274:16;2258:33;:15;:33;:::i;:::-;2217:35;:12;2234:17;2217:35;:16;:35;:::i;:::-;2216:41;:76;:41;:76;:::i;:::-;:97;:138;:97;:138;:::i;:::-;2209:145;;;;;;;;;;;;;1671:694;2382:34;2392:12;2406:9;2382;:34::i;:::-;2375:41;1146:1277;-1:-1:-1;;;;;;;;;1146:1277:4:o;2409:174:15:-;2508:11;;:::i;:::-;2542:34;;;;;;;;;2556:10;;2542:34;;2556:17;;2571:1;2556:17;:14;:17;:::i;:::-;2542:34;;2535:41;-1:-1:-1;2409:174:15;;;;;:::o;4932:113::-;5018:10;;4992:7;;5018:20;;1034:6;5018:20;:14;:20;:::i;1572:174::-;1666:11;;:::i;:::-;1700:39;;;;;;;;1714:22;1725:1;1034:6;1734:1;1714:10;:22::i;5895:132:0:-;5945:19;;:::i;:::-;-1:-1:-1;5983:37:0;;;;;;;;;2624:5;5983:37;;5895:132;:::o;1274:134:55:-;1332:7;1358:43;1362:1;1365;1358:43;;;;;;;;;;;;;;;;;:3;:43::i;4270:130:15:-;4347:4;4370:18;4380:4;4386:1;4370:9;:18::i;:::-;4392:1;4370:23;;4270:130;-1:-1:-1;;;4270:130:15:o;2450:210:4:-;2518:19;;:::i;:::-;2556:97;2639:13;:11;:13::i;:::-;2556:78;2587:37;2622:1;2588:28;2606:9;2588:13;:11;:13::i;:::-;:17;:28;:17;:28;:::i;:::-;2587:34;:37;:34;:37;:::i;:::-;2556:13;:11;:13::i;2691:357::-;2808:19;;:::i;:::-;2843;:5;2856;2843:19;:12;:19;:::i;:::-;2839:69;;;2885:12;2891:5;2885;:12::i;:::-;2878:19;;;;2839:69;2925:116;3027:13;:11;:13::i;:::-;2925:97;2956:56;2987:24;3005:5;2987:13;:11;:13::i;:24::-;2957;2975:5;2957:13;:11;:13::i;:24::-;2956:30;:56;:30;:56;:::i;3315:184:15:-;3418:11;;:::i;:::-;3452:40;;;;;;;;;3481:7;;3466:10;;3452:40;;3466:23;;:10;:23;:14;:23;:::i;3125:184::-;3228:11;;:::i;:::-;3262:40;;;;;;;;;3291:7;;3276:10;;3262:40;;3276:23;;:10;:23;:14;:23;:::i;3733:198::-;3836:11;;:::i;:::-;3870:54;;;;;;;;3884:37;3895:4;:10;;;3907:1;:7;;;1034:6;3884:10;:37::i;3937:198::-;4040:11;;:::i;:::-;4074:54;;;;;;;;4088:37;4099:4;:10;;;1034:6;4117:1;:7;;;4088:10;:37::i;2159:459:55:-;2217:7;2458:6;2454:45;;-1:-1:-1;2487:1:55;2480:8;;2454:45;2521:5;;;2525:1;2521;:5;:1;2544:5;;;;;:10;2536:56;;;;-1:-1:-1;;;2536:56:55;;;;;;;;;;;;;;;;3073:130;3131:7;3157:39;3161:1;3164;3157:39;;;;;;;;;;;;;;;;;:3;:39::i;5098:215:15:-;5238:7;5268:38;5294:11;5268:21;:6;5279:9;5268:21;:10;:21;:::i;:::-;:25;:38;:25;:38;:::i;1732:187:55:-;1818:7;1853:12;1845:6;;;;1837:29;;;;-1:-1:-1;;;1837:29:55;;;;;;;;;;-1:-1:-1;;;1888:5:55;;;1732:187::o;5319:233:15:-;5462:7;;5451;;5424;;5451:18;5447:57;;;-1:-1:-1;5492:1:15;5485:8;;5447:57;5530:7;;5520;;:17;:25;;5544:1;5520:25;;;5540:1;5520:25;5513:32;;;5319:233;-1:-1:-1;;;5319:233:15:o;1305:112::-;1355:11;;:::i;:::-;-1:-1:-1;1389:21:15;;;;;;;;;1034:6;1389:21;;1305:112;:::o;2769:350::-;2868:11;;:::i;:::-;2899:6;2895:51;;2928:7;2933:1;2928:4;:7::i;2895:51::-;2956:16;;:::i;:::-;-1:-1:-1;2975:27:15;;;;;;;;;2989:10;;2975:27;;3029:1;3012:79;3036:1;3032;:5;3012:79;;;3065:15;3069:4;3075;3065:3;:15::i;:::-;3058:22;-1:-1:-1;3039:3:15;;3012:79;;;-1:-1:-1;3108:4:15;2769:350;-1:-1:-1;;;2769:350:15:o;4141:123::-;4250:7;4236:10;;:21;;4141:123::o;834:176:55:-;892:7;923:5;;;946:6;;;;938:46;;;;-1:-1:-1;;;938:46:55;;;;;;;;3718:338;3804:7;3904:12;3897:5;3889:28;;;;-1:-1:-1;;;3889:28:55;;;;;;;;;;;3927:9;3943:1;3939;:5;;;;;;;3718:338;-1:-1:-1;;;;;3718:338:55:o;1423:143:15:-;1497:11;;:::i;:::-;1531:28;;;;;;;;;;1545:11;:1;1034:6;1545:11;:5;:11;:::i;:::-;1531:28;;1524:35;1423:143;-1:-1:-1;;1423:143:15:o;718:296:22:-;;;;;;;;;;;;;;:::o;5:130:-1:-;72:20;;97:33;72:20;97:33;;142:491;;;;280:2;268:9;259:7;255:23;251:32;248:2;;;296:1;293;286:12;248:2;331:1;348:53;393:7;373:9;348:53;;;338:63;;310:97;438:2;456:53;501:7;492:6;481:9;477:22;456:53;;;446:63;;417:98;546:2;564:53;609:7;600:6;589:9;585:22;564:53;;;554:63;;525:98;242:391;;;;;;640:347;;752:39;785:5;752:39;;;803:71;867:6;862:3;803:71;;;796:78;;879:52;924:6;919:3;912:4;905:5;901:16;879:52;;;952:29;974:6;952:29;;;943:39;;;;732:255;-1:-1;;;732:255;995:327;;1155:67;1219:2;1214:3;1155:67;;;1255:29;1235:50;;1313:2;1304:12;;1141:181;-1:-1;;1141:181;1331:370;;1491:67;1555:2;1550:3;1491:67;;;1591:34;1571:55;;-1:-1;;;1655:2;1646:12;;1639:25;1692:2;1683:12;;1477:224;-1:-1;;1477:224;1709:113;1792:24;1810:5;1792:24;;;1787:3;1780:37;1774:48;;;1829:301;1967:2;1981:47;;;1952:18;;2042:78;1952:18;2106:6;2042:78;;2137:407;2328:2;2342:47;;;2313:18;;2403:131;2313:18;2403:131;;2551:407;2742:2;2756:47;;;2727:18;;2817:131;2727:18;2817:131;;2965:213;3083:2;3068:18;;3097:71;3072:9;3141:6;3097:71;;3185:122;3273:12;;3244:63;3315:163;3418:19;;;3467:4;3458:14;;3411:67;3486:72;3548:5;3531:27;3566:268;3631:1;3638:101;3652:6;3649:1;3646:13;3638:101;;;3719:11;;;3713:18;3700:11;;;3693:39;3674:2;3667:10;3638:101;;;3754:6;3751:1;3748:13;3745:2;;;3819:1;3810:6;3805:3;3801:16;3794:27;3745:2;3615:219;;;;;3842:97;3930:2;3910:14;-1:-1;;3906:28;;3890:49;3947:117;4016:24;4034:5;4016:24;;;4009:5;4006:35;3996:2;;4055:1;4052;4045:12;3996:2;3990:74;",
+  "source": "/*\n    Copyright 2020 Empty Set Squad <emptysetsquad@protonmail.com>\n\n    Licensed under the Apache License, Version 2.0 (the \"License\");\n    you may not use this file except in compliance with the License.\n    You may obtain a copy of the License at\n\n    http://www.apache.org/licenses/LICENSE-2.0\n\n    Unless required by applicable law or agreed to in writing, software\n    distributed under the License is distributed on an \"AS IS\" BASIS,\n    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n    See the License for the specific language governing permissions and\n    limitations under the License.\n*/\n\npragma solidity ^0.5.17;\npragma experimental ABIEncoderV2;\n\nimport \"../dao/Curve.sol\";\n\ncontract MockCurve is Curve {\n    constructor () public { }\n\n    function calculateCouponsE(\n        uint256 totalSupply,\n        uint256 totalDebt,\n        uint256 amount\n    ) external pure returns (uint256) {\n        return super.calculateCouponPremium(totalSupply, totalDebt, amount);\n    }\n}\n",
+  "sourcePath": "/Users/sachin/code/dollar/protocol/contracts/mock/MockCurve.sol",
+  "ast": {
+    "absolutePath": "/Users/sachin/code/dollar/protocol/contracts/mock/MockCurve.sol",
+    "exportedSymbols": {
+      "MockCurve": [
+        6175
+      ]
+    },
+    "id": 6176,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 6147,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".17"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "630:24:22"
+      },
+      {
+        "id": 6148,
+        "literals": [
+          "experimental",
+          "ABIEncoderV2"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "655:33:22"
+      },
+      {
+        "absolutePath": "/Users/sachin/code/dollar/protocol/contracts/dao/Curve.sol",
+        "file": "../dao/Curve.sol",
+        "id": 6149,
+        "nodeType": "ImportDirective",
+        "scope": 6176,
+        "sourceUnit": 1450,
+        "src": "690:26:22",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 6150,
+              "name": "Curve",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 1449,
+              "src": "740:5:22",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Curve_$1449",
+                "typeString": "contract Curve"
+              }
+            },
+            "id": 6151,
+            "nodeType": "InheritanceSpecifier",
+            "src": "740:5:22"
+          }
+        ],
+        "contractDependencies": [
+          1449
+        ],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 6175,
+        "linearizedBaseContracts": [
+          6175,
+          1449
+        ],
+        "name": "MockCurve",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 6154,
+              "nodeType": "Block",
+              "src": "774:3:22",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 6155,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 6152,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "764:2:22"
+            },
+            "returnParameters": {
+              "id": 6153,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "774:0:22"
+            },
+            "scope": 6175,
+            "src": "752:25:22",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 6173,
+              "nodeType": "Block",
+              "src": "928:84:22",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "id": 6168,
+                        "name": "totalSupply",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 6157,
+                        "src": "974:11:22",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "id": 6169,
+                        "name": "totalDebt",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 6159,
+                        "src": "987:9:22",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "id": 6170,
+                        "name": "amount",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 6161,
+                        "src": "998:6:22",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        },
+                        {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        },
+                        {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 6166,
+                        "name": "super",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 12556,
+                        "src": "945:5:22",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_super$_MockCurve_$6175",
+                          "typeString": "contract super MockCurve"
+                        }
+                      },
+                      "id": 6167,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "calculateCouponPremium",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 1245,
+                      "src": "945:28:22",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$_t_uint256_$returns$_t_uint256_$",
+                        "typeString": "function (uint256,uint256,uint256) pure returns (uint256)"
+                      }
+                    },
+                    "id": 6171,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "945:60:22",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "functionReturnParameters": 6165,
+                  "id": 6172,
+                  "nodeType": "Return",
+                  "src": "938:67:22"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 6174,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "calculateCouponsE",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 6162,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 6157,
+                  "name": "totalSupply",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 6174,
+                  "src": "819:19:22",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 6156,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "819:7:22",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 6159,
+                  "name": "totalDebt",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 6174,
+                  "src": "848:17:22",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 6158,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "848:7:22",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 6161,
+                  "name": "amount",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 6174,
+                  "src": "875:14:22",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 6160,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "875:7:22",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "809:86:22"
+            },
+            "returnParameters": {
+              "id": 6165,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 6164,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 6174,
+                  "src": "919:7:22",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 6163,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "919:7:22",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "918:9:22"
+            },
+            "scope": 6175,
+            "src": "783:229:22",
+            "stateMutability": "pure",
+            "superFunction": null,
+            "visibility": "external"
+          }
+        ],
+        "scope": 6176,
+        "src": "718:296:22"
+      }
+    ],
+    "src": "630:385:22"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "/Users/sachin/code/dollar/protocol/contracts/mock/MockCurve.sol",
+      "exportedSymbols": {
+        "MockCurve": [
+          6175
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.5",
+            ".17"
+          ]
+        },
+        "id": 6147,
+        "name": "PragmaDirective",
+        "src": "630:24:22"
+      },
+      {
+        "attributes": {
+          "literals": [
+            "experimental",
+            "ABIEncoderV2"
+          ]
+        },
+        "id": 6148,
+        "name": "PragmaDirective",
+        "src": "655:33:22"
+      },
+      {
+        "attributes": {
+          "SourceUnit": 1450,
+          "absolutePath": "/Users/sachin/code/dollar/protocol/contracts/dao/Curve.sol",
+          "file": "../dao/Curve.sol",
+          "scope": 6176,
+          "symbolAliases": [
+            null
+          ],
+          "unitAlias": ""
+        },
+        "id": 6149,
+        "name": "ImportDirective",
+        "src": "690:26:22"
+      },
+      {
+        "attributes": {
+          "contractDependencies": [
+            1449
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            6175,
+            1449
+          ],
+          "name": "MockCurve",
+          "scope": 6176
+        },
+        "children": [
+          {
+            "attributes": {
+              "arguments": null
+            },
+            "children": [
+              {
+                "attributes": {
+                  "contractScope": null,
+                  "name": "Curve",
+                  "referencedDeclaration": 1449,
+                  "type": "contract Curve"
+                },
+                "id": 6150,
+                "name": "UserDefinedTypeName",
+                "src": "740:5:22"
+              }
+            ],
+            "id": 6151,
+            "name": "InheritanceSpecifier",
+            "src": "740:5:22"
+          },
+          {
+            "attributes": {
+              "documentation": null,
+              "implemented": true,
+              "isConstructor": true,
+              "kind": "constructor",
+              "modifiers": [
+                null
+              ],
+              "name": "",
+              "scope": 6175,
+              "stateMutability": "nonpayable",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 6152,
+                "name": "ParameterList",
+                "src": "764:2:22"
+              },
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 6153,
+                "name": "ParameterList",
+                "src": "774:0:22"
+              },
+              {
+                "attributes": {
+                  "statements": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 6154,
+                "name": "Block",
+                "src": "774:3:22"
+              }
+            ],
+            "id": 6155,
+            "name": "FunctionDefinition",
+            "src": "752:25:22"
+          },
+          {
+            "attributes": {
+              "documentation": null,
+              "implemented": true,
+              "isConstructor": false,
+              "kind": "function",
+              "modifiers": [
+                null
+              ],
+              "name": "calculateCouponsE",
+              "scope": 6175,
+              "stateMutability": "pure",
+              "superFunction": null,
+              "visibility": "external"
+            },
+            "children": [
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "totalSupply",
+                      "scope": 6174,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "uint256",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "uint256",
+                          "type": "uint256"
+                        },
+                        "id": 6156,
+                        "name": "ElementaryTypeName",
+                        "src": "819:7:22"
+                      }
+                    ],
+                    "id": 6157,
+                    "name": "VariableDeclaration",
+                    "src": "819:19:22"
+                  },
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "totalDebt",
+                      "scope": 6174,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "uint256",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "uint256",
+                          "type": "uint256"
+                        },
+                        "id": 6158,
+                        "name": "ElementaryTypeName",
+                        "src": "848:7:22"
+                      }
+                    ],
+                    "id": 6159,
+                    "name": "VariableDeclaration",
+                    "src": "848:17:22"
+                  },
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "amount",
+                      "scope": 6174,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "uint256",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "uint256",
+                          "type": "uint256"
+                        },
+                        "id": 6160,
+                        "name": "ElementaryTypeName",
+                        "src": "875:7:22"
+                      }
+                    ],
+                    "id": 6161,
+                    "name": "VariableDeclaration",
+                    "src": "875:14:22"
+                  }
+                ],
+                "id": 6162,
+                "name": "ParameterList",
+                "src": "809:86:22"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "",
+                      "scope": 6174,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "uint256",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "uint256",
+                          "type": "uint256"
+                        },
+                        "id": 6163,
+                        "name": "ElementaryTypeName",
+                        "src": "919:7:22"
+                      }
+                    ],
+                    "id": 6164,
+                    "name": "VariableDeclaration",
+                    "src": "919:7:22"
+                  }
+                ],
+                "id": 6165,
+                "name": "ParameterList",
+                "src": "918:9:22"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "functionReturnParameters": 6165
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "isStructConstructorCall": false,
+                          "lValueRequested": false,
+                          "names": [
+                            null
+                          ],
+                          "type": "uint256",
+                          "type_conversion": false
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": [
+                                {
+                                  "typeIdentifier": "t_uint256",
+                                  "typeString": "uint256"
+                                },
+                                {
+                                  "typeIdentifier": "t_uint256",
+                                  "typeString": "uint256"
+                                },
+                                {
+                                  "typeIdentifier": "t_uint256",
+                                  "typeString": "uint256"
+                                }
+                              ],
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "member_name": "calculateCouponPremium",
+                              "referencedDeclaration": 1245,
+                              "type": "function (uint256,uint256,uint256) pure returns (uint256)"
+                            },
+                            "children": [
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "overloadedDeclarations": [
+                                    null
+                                  ],
+                                  "referencedDeclaration": 12556,
+                                  "type": "contract super MockCurve",
+                                  "value": "super"
+                                },
+                                "id": 6166,
+                                "name": "Identifier",
+                                "src": "945:5:22"
+                              }
+                            ],
+                            "id": 6167,
+                            "name": "MemberAccess",
+                            "src": "945:28:22"
+                          },
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 6157,
+                              "type": "uint256",
+                              "value": "totalSupply"
+                            },
+                            "id": 6168,
+                            "name": "Identifier",
+                            "src": "974:11:22"
+                          },
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 6159,
+                              "type": "uint256",
+                              "value": "totalDebt"
+                            },
+                            "id": 6169,
+                            "name": "Identifier",
+                            "src": "987:9:22"
+                          },
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 6161,
+                              "type": "uint256",
+                              "value": "amount"
+                            },
+                            "id": 6170,
+                            "name": "Identifier",
+                            "src": "998:6:22"
+                          }
+                        ],
+                        "id": 6171,
+                        "name": "FunctionCall",
+                        "src": "945:60:22"
+                      }
+                    ],
+                    "id": 6172,
+                    "name": "Return",
+                    "src": "938:67:22"
+                  }
+                ],
+                "id": 6173,
+                "name": "Block",
+                "src": "928:84:22"
+              }
+            ],
+            "id": 6174,
+            "name": "FunctionDefinition",
+            "src": "783:229:22"
+          }
+        ],
+        "id": 6175,
+        "name": "ContractDefinition",
+        "src": "718:296:22"
+      }
+    ],
+    "id": 6176,
+    "name": "SourceUnit",
+    "src": "630:385:22"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.17+commit.d19bba13.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.3.3",
+  "updatedAt": "2021-01-01T13:40:49.119Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

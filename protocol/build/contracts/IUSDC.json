@@ -1,0 +1,309 @@
+{
+  "contractName": "IUSDC",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_account",
+          "type": "address"
+        }
+      ],
+      "name": "isBlacklisted",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.17+commit.d19bba13\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[{\"internalType\":\"address\",\"name\":\"_account\",\"type\":\"address\"}],\"name\":\"isBlacklisted\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/sachin/code/dollar/protocol/contracts/oracle/IUSDC.sol\":\"IUSDC\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/sachin/code/dollar/protocol/contracts/oracle/IUSDC.sol\":{\"keccak256\":\"0x3c351db9c25ff00c0dc7eca786ce1d504c994530da1cf11db285410cf34ead83\",\"urls\":[\"bzz-raw://a75c699dd0370645bee5173e3aa57946d3ad9d4ff0d53e00eabaa16a3b778d60\",\"dweb:/ipfs/Qmb4htSvY2demty2tXVFjbK5qeejrWccr4Y1cqF1Do6sEu\"]}},\"version\":1}",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "/*\n    Copyright 2020 Empty Set Squad <emptysetsquad@protonmail.com>\n\n    Licensed under the Apache License, Version 2.0 (the \"License\");\n    you may not use this file except in compliance with the License.\n    You may obtain a copy of the License at\n\n    http://www.apache.org/licenses/LICENSE-2.0\n\n    Unless required by applicable law or agreed to in writing, software\n    distributed under the License is distributed on an \"AS IS\" BASIS,\n    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n    See the License for the specific language governing permissions and\n    limitations under the License.\n*/\n\npragma solidity ^0.5.17;\n\ncontract IUSDC {\n    function isBlacklisted(address _account) external view returns (bool);\n}",
+  "sourcePath": "/Users/sachin/code/dollar/protocol/contracts/oracle/IUSDC.sol",
+  "ast": {
+    "absolutePath": "/Users/sachin/code/dollar/protocol/contracts/oracle/IUSDC.sol",
+    "exportedSymbols": {
+      "IUSDC": [
+        8654
+      ]
+    },
+    "id": 8655,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 8646,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".17"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "630:24:42"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": false,
+        "id": 8654,
+        "linearizedBaseContracts": [
+          8654
+        ],
+        "name": "IUSDC",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": null,
+            "documentation": null,
+            "id": 8653,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "isBlacklisted",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 8649,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 8648,
+                  "name": "_account",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 8653,
+                  "src": "700:16:42",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 8647,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "700:7:42",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "699:18:42"
+            },
+            "returnParameters": {
+              "id": 8652,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 8651,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 8653,
+                  "src": "741:4:42",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 8650,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "741:4:42",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "740:6:42"
+            },
+            "scope": 8654,
+            "src": "677:70:42",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "external"
+          }
+        ],
+        "scope": 8655,
+        "src": "656:93:42"
+      }
+    ],
+    "src": "630:119:42"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "/Users/sachin/code/dollar/protocol/contracts/oracle/IUSDC.sol",
+      "exportedSymbols": {
+        "IUSDC": [
+          8654
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.5",
+            ".17"
+          ]
+        },
+        "id": 8646,
+        "name": "PragmaDirective",
+        "src": "630:24:42"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": false,
+          "linearizedBaseContracts": [
+            8654
+          ],
+          "name": "IUSDC",
+          "scope": 8655
+        },
+        "children": [
+          {
+            "attributes": {
+              "body": null,
+              "documentation": null,
+              "implemented": false,
+              "isConstructor": false,
+              "kind": "function",
+              "modifiers": [
+                null
+              ],
+              "name": "isBlacklisted",
+              "scope": 8654,
+              "stateMutability": "view",
+              "superFunction": null,
+              "visibility": "external"
+            },
+            "children": [
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "_account",
+                      "scope": 8653,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "address",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "address",
+                          "stateMutability": "nonpayable",
+                          "type": "address"
+                        },
+                        "id": 8647,
+                        "name": "ElementaryTypeName",
+                        "src": "700:7:42"
+                      }
+                    ],
+                    "id": 8648,
+                    "name": "VariableDeclaration",
+                    "src": "700:16:42"
+                  }
+                ],
+                "id": 8649,
+                "name": "ParameterList",
+                "src": "699:18:42"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "",
+                      "scope": 8653,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "bool",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "bool",
+                          "type": "bool"
+                        },
+                        "id": 8650,
+                        "name": "ElementaryTypeName",
+                        "src": "741:4:42"
+                      }
+                    ],
+                    "id": 8651,
+                    "name": "VariableDeclaration",
+                    "src": "741:4:42"
+                  }
+                ],
+                "id": 8652,
+                "name": "ParameterList",
+                "src": "740:6:42"
+              }
+            ],
+            "id": 8653,
+            "name": "FunctionDefinition",
+            "src": "677:70:42"
+          }
+        ],
+        "id": 8654,
+        "name": "ContractDefinition",
+        "src": "656:93:42"
+      }
+    ],
+    "id": 8655,
+    "name": "SourceUnit",
+    "src": "630:119:42"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.17+commit.d19bba13.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.3.3",
+  "updatedAt": "2021-01-01T13:40:49.154Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
