@@ -47,6 +47,14 @@ module.exports = {
       gas: 6721970,
     },
 
+    // test network for truffle teams
+    test: {
+      host: "127.0.0.1",     // Localhost (default: none)
+      port: 7545,            // Standard Ethereum port (default: none)
+      network_id: "*",       // Any network (default: none)
+      gas: 6721970,
+    },
+
     //Another network with more advanced options...
     mainnet: {
       provider: () => new PrivateKeyProvider(privateKey, 'https://mainnet.infura.io/v3/' + infuraId),
